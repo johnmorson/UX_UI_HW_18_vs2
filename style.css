@@ -27,6 +27,12 @@ h3 {
     font-size: 18pt;
 }
 
+p {
+    color: #3B4B64;
+    font-family: 'Montserrat-Reg'; 
+    font-size: 18pt;
+}
+
 .flex-parent {
     display: flex;
     flex-direction: row;
@@ -50,7 +56,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 600px;
+    width: 800px;
 
 }
 
@@ -232,85 +238,58 @@ h3 {
     background-color: #323640;
 }
 
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat/Montserrat-Black.ttf');
-}
 
-@font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('fonts/Montserrat/Montserrat-ExtraBold.ttf');
-}
 
-@font-face {
-    font-family: 'Montserrat-Reg';
-    src: url('fonts/Montserrat/Montserrat-Regular.ttf');
-}
+#experienceheader {
 
-.sectionheader {
-
-    color: #3B4B64; 
+    background-color: #323640;
+    color: #FFFFFF;
     text-align: center;
+    padding-top: 40px;
 }
 
-.sections h3 {
+.uxuidesign {
 
-    color: #3B4B64; 
-}
-
-.sections {
-
-    width: 1024px;
-    margin: auto;
-}
-
-.portfoliocontainer {
-
-    display: flex;
-    margin: 40px 0px;
-}
-
-.portfoliocontent {
-
-    padding-left: 100px;
+    padding-left: 450px;
+    padding-right: 450px;
     font-family: 'Montserrat-Reg';
     font-size: 18pt;
-    color: #3B4B64; 
+    color: #ffffff;
+    text-align: left;
+
 }
 
-.sections button {
+.downloadresume {
 
     background-color: #E4A01B;
     color: #323640; 
     font-family: 'Montserrat-Reg';
     font-size: 18pt;
     padding: 10px;
-    margin-top: 20px;
-}
-
-footer {
-
-    background-color: #3B4B64;
-    padding: 15px;
-    color: #FFFFFF;
-    font-family: 'Montserrat-Reg'; 
-    font-size: 18pt;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
     align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+
 }
 
-
-.copyright {
-
-    text-align: center;
+.about {
+    color: #323640; 
 }
 
-footer .flex-parent {
-
-    justify-content: flex-start;
+.hiimjohnny {
+    align-text: left;
+    margin-left: 450px;
 }
 
-footer img {
+.aboutmephoto {
 
-    margin-right: 20px;
+    align-items: right;
+    margin-right: 450px;
+}
+
+.contact {
+    background-color: #323640;
+    color: #FFFFFF;
 }
