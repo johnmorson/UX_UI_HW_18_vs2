@@ -1,4 +1,4 @@
-header {
+Header {
 
     background-color: #3B4B64;
     padding: 15px;
@@ -31,6 +31,7 @@ p {
     color: #3B4B64;
     font-family: 'Montserrat-Reg'; 
     font-size: 18pt;
+    margin-block-start: 0px;
 }
 
 .flex-parent {
@@ -274,8 +275,27 @@ h3 {
 
 }
 
-.about {
+#about > h2 {
     color: #323640; 
+    text-align: center;
+    
+}
+
+.sectionAboutContent {
+
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#about {
+
+    margin: 0 450px;
+}
+
+#content-left {
+
+    margin-right: 40px;
 }
 
 .hiimjohnny {
@@ -283,10 +303,9 @@ h3 {
     margin-left: 450px;
 }
 
-.aboutmephoto {
+#aboutmephoto {
 
-    align-items: right;
-    margin-right: 450px;
+    object-fit: contain;
 }
 
 .contact {
