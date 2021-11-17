@@ -14,12 +14,14 @@ h1 {
     font-size: 65pt;
 }
 
+
 h2 {
 
     color: #FFFFFF;
     font-family: 'Montserrat-Bold';
     font-size: 42pt;
 }
+
 
 h3 {
     color: #FFFFFF;
@@ -28,9 +30,9 @@ h3 {
 }
 
 p {
-    color: #3B4B64;
+    color: black;
     font-family: 'Montserrat-Reg'; 
-    font-size: 18pt;
+    font-size: 14pt;
     margin-block-start: 0px;
 }
 
@@ -56,8 +58,9 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 60px;
     align-items: center;
-    width: 800px;
+    width: 1024px;
 
 }
 
@@ -173,51 +176,6 @@ footer img {
     font-size: 18pt;
 }
 
-h1 {
-
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-size: 65pt;
-}
-
-h2 {
-
-    color: #FFFFFF;
-    font-family: 'Montserrat-Bold';
-    font-size: 42pt;
-}
-
-h3 {
-    color: #FFFFFF;
-    font-family: 'Montserrat-Reg'; 
-    font-size: 18pt;
-}
-
-.flex-parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 1024px;
-    margin: 0 auto;
-}
-
-/* .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-} */
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 600px;
-
-}
 
 .herocontent {
 
@@ -291,6 +249,7 @@ h3 {
 #about {
 
     margin: 0 450px;
+    margin-bottom: 50px;
 }
 
 #content-left {
@@ -299,7 +258,6 @@ h3 {
 }
 
 .hiimjohnny {
-    align-text: left;
     margin-left: 450px;
 }
 
@@ -308,7 +266,15 @@ h3 {
     object-fit: contain;
 }
 
-.contact {
+#contactheader {
+
     background-color: #323640;
     color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+}
+@media screen (max-width: 600) {
+    flex-direction: columns;
+    width: 100%;
+
 }
